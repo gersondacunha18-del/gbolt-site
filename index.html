@@ -21,7 +21,7 @@ header{
 }
 
 .logo{
-  font-size:24px;
+  font-size:22px;
   font-weight:bold;
   color:#00ff88;
 }
@@ -29,30 +29,23 @@ header{
 .btn{
   background:#00ff88;
   color:black;
-  padding:10px 20px;
+  padding:12px 22px;
   border-radius:6px;
   text-decoration:none;
   font-weight:bold;
 }
 
-.hero{
+.section{
+  padding:60px 20px;
   text-align:center;
-  padding:80px 20px;
 }
 
-.hero h1{
-  font-size:40px;
+h1{
+  font-size:38px;
 }
 
-.hero p{
+p{
   color:#ccc;
-  margin:20px 0;
-}
-
-.planos{
-  display:flex;
-  justify-content:center;
-  padding:40px;
 }
 
 .card{
@@ -60,17 +53,23 @@ header{
   padding:30px;
   border-radius:10px;
   width:300px;
-  text-align:center;
+  margin:auto;
   border:1px solid #00ff88;
-}
-
-.card h2{
-  color:#00ff88;
 }
 
 .preco{
   font-size:32px;
   margin:20px 0;
+  color:#00ff88;
+}
+
+ul{
+  list-style:none;
+  padding:0;
+}
+
+li{
+  margin:10px 0;
 }
 
 footer{
@@ -85,26 +84,61 @@ footer{
 
 <header>
   <div class="logo">MIL Gestão & Tecnologia</div>
-  <a href="https://wa.me/5511964444343" class="btn">Falar no WhatsApp</a>
+  <a href="https://wa.me/5511912345678" class="btn">Falar no WhatsApp</a>
 </header>
 
-<section class="hero">
-  <h1>Automatize seu WhatsApp e nunca mais perca clientes</h1>
-  <p>O G-Bolt atende, responde e vende para você 24 horas por dia.</p>
-  <a href="https://wa.me/5511964444343" class="btn">Começar Agora</a>
+<!-- HERO -->
+<section class="section">
+  <h1>Automatize seu WhatsApp e feche mais clientes todos os dias</h1>
+  <p>O G-Bolt responde, atende e vende por você 24 horas por dia.</p>
+  <br>
+  <a href="https://wa.me/5511912345678" class="btn">Quero ativar agora</a>
 </section>
 
-<section class="planos">
+<!-- PROBLEMA -->
+<section class="section">
+  <h2>Você está perdendo clientes sem perceber</h2>
+  <p>Demora no atendimento, mensagens ignoradas e falta de organização fazem você perder vendas todos os dias.</p>
+</section>
+
+<!-- SOLUÇÃO -->
+<section class="section">
+  <h2>O G-Bolt resolve isso pra você</h2>
+  <p>Atendimento automático, respostas rápidas e organização completa do seu WhatsApp.</p>
+</section>
+
+<!-- COMO FUNCIONA -->
+<section class="section">
+  <h2>Como funciona</h2>
+  <p>1️⃣ Cliente chama no WhatsApp</p>
+  <p>2️⃣ O G-Bolt responde automaticamente</p>
+  <p>3️⃣ Você fecha mais vendas sem esforço</p>
+</section>
+
+<!-- OFERTA -->
+<section class="section">
   <div class="card">
     <h2>Plano Profissional</h2>
     <div class="preco">R$ 247/mês</div>
-    <p>✔ Atendimento automático</p>
-    <p>✔ Agendamentos</p>
-    <p>✔ Vendas pelo WhatsApp</p>
-    <p>✔ IA inteligente</p>
+
+    <ul>
+      <li>✔ Atendimento automático</li>
+      <li>✔ Agendamentos</li>
+      <li>✔ Vendas pelo WhatsApp</li>
+      <li>✔ IA inteligente</li>
+    </ul>
+
+    <p style="color:#00ff88;">🔥 Oferta por tempo limitado</p>
+
     <br>
-    <a href="https://wa.me/5511999999999" class="btn">Ativar Agora</a>
+    <a href="https://wa.me/5511964444343" class="btn">Quero ativar agora</a>
   </div>
+</section>
+
+<!-- CTA FINAL -->
+<section class="section">
+  <h2>Pronto para parar de perder clientes?</h2>
+  <a href="https://wa.me/5511964444343" class="btn">Falar no WhatsApp agora</a>
 </section>
 
 <footer>
